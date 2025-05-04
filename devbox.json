@@ -1,0 +1,32 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.14.0/.schema/devbox.schema.json",
+  "packages": [
+    "pkg-config@latest",
+    "gobject-introspection@latest",
+    "cargo@latest",
+    "cargo-tauri@latest",
+    "nodejs@latest",
+    "at-spi2-atk@latest",
+    "atkmm@latest",
+    "cairo@latest",
+    "gdk-pixbuf@latest",
+    "glib@latest",
+    "gtk3@latest",
+    "harfbuzz@latest",
+    "librsvg@lastest",
+    "libsoup_3@latest",
+    "pango@latest",
+    "webkitgtk_4_1@latest",
+    "openssl@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "echo 'Welcome to devbox!' > /dev/null"
+    ],
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ]
+    }
+  }
+}
