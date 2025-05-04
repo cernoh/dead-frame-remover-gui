@@ -13,7 +13,7 @@
     "glib@latest",
     "gtk3@latest",
     "harfbuzz@latest",
-    "librsvg@lastest",
+    "librsvg@latest",
     "libsoup_3@latest",
     "pango@latest",
     "webkitgtk_4_1@latest",
