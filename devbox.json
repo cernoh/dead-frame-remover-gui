@@ -16,8 +16,9 @@
     "librsvg@latest",
     "libsoup_3@latest",
     "pango@latest",
-    "webkitgtk_4_1@latest",
-    "openssl@latest"
+    "openssl@latest",
+    "bun@latest",
+    "rustc@latest"
   ],
   "shell": {
     "init_hook": [
