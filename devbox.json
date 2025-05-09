@@ -18,7 +18,9 @@
     "pango@latest",
     "openssl@latest",
     "bun@latest",
-    "rustc@latest"
+    "rustc@latest",
+    "rustfmt@latest",
+    "rust-analyzer@latest"
   ],
   "shell": {
     "init_hook": [
